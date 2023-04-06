@@ -1,3 +1,5 @@
+
+
 #ifndef MATH_3D_H
 #define	MATH_3D_H
 
@@ -87,7 +89,7 @@ struct Vector3f
 };
 
 
-inline Vector3f operator+(const Vector3f& l, const Vector3f& r)
+inline Vector3f operator+(const Vector3f & l, const Vector3f & r)
 {
     Vector3f Ret(l.x + r.x,
         l.y + r.y,
@@ -96,7 +98,7 @@ inline Vector3f operator+(const Vector3f& l, const Vector3f& r)
     return Ret;
 }
 
-inline Vector3f operator-(const Vector3f& l, const Vector3f& r)
+inline Vector3f operator-(const Vector3f & l, const Vector3f & r)
 {
     Vector3f Ret(l.x - r.x,
         l.y - r.y,
@@ -105,7 +107,7 @@ inline Vector3f operator-(const Vector3f& l, const Vector3f& r)
     return Ret;
 }
 
-inline Vector3f operator*(const Vector3f& l, float f)
+inline Vector3f operator*(const Vector3f & l, float f)
 {
     Vector3f Ret(l.x * f,
         l.y * f,
@@ -168,8 +170,8 @@ struct Quaternion
     Quaternion Conjugate();
 };
 
-Quaternion operator*(const Quaternion& l, const Quaternion& r);
+Quaternion operator*(const Quaternion & l, const Quaternion & r);
 
-Quaternion operator*(const Quaternion& q, const Vector3f& v);
+Quaternion operator*(const Quaternion & q, const Vector3f & v);
 
 #endif	/* MATH_3D_H */

@@ -39,6 +39,15 @@
     <ClCompile Include="technique.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow_map_fbo.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow_map_technique.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="math_3d.h">
@@ -66,6 +75,15 @@
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="util.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map_fbo.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map_technique.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>
