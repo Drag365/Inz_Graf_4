@@ -136,7 +136,7 @@
   <ItemGroup>
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="glut_backend.cpp" />
-    <ClCompile Include="InzhGraf_3.cpp" />
+    <ClCompile Include="InzhGraf_4.cpp" />
     <ClCompile Include="lighting_technique.cpp" />
     <ClCompile Include="math_3d.cpp" />
     <ClCompile Include="mesh.cpp" />
